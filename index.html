@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .parallax-bg {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg1 {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg2 {
+  position: absolute;
+  top: 25%;
+  left: 68%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg3 {
+  position: absolute;
+  top: 67%;
+  left: 3%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg4 {
+  position: absolute;
+  top: 67%;
+  left: 35%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg5 {
+  position: absolute;
+  top: 67%;
+  left: 68%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg6 {
+  position: absolute;
+  top: 110%;
+  left: 3%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg7 {
+  position: absolute;
+  top: 110%;
+  left: 35%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg8 {
+  position: absolute;
+  top: 110%;
+  left: 68%;
+  background: url("qwng") no-repeat center center / cover;
+  transform: translateY(-100%);
+  z-index: -1;
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.parallax-bg19 {
+  top: 25%;
+  left: 20%;
+  animation: bounceIn 5.5s ease-out forwards;
+  color: #000000;
+  font-size: 800%;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.parallax-bg20 {
+    font-family: serif;
+  top: 50%;
+  left: 29%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #cc8f56a6;
+  font-size: 485%;
+}
+
+.parallax-bg21 {
+  top: 135%;
+  left: 5%;
+  animation: bounceIn 5.5s ease-out forwards;
+  color: #000000;
+  font-size: 400%;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.parallax-bg22 {
+    font-family: serif;
+  top: 153%;
+  left: 5%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 250%;
+}
+
+.parallax-bg23 {
+  top: 160%;
+  left: 5%;
+  animation: bounceIn 5.5s ease-out forwards;
+  color: #070707be;
+  font-size: 150%;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: 100%;
+}
+
+.parallax-bg02 {
+    font-family: serif;
+  top: 190%;
+  left: 5%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 250%;
+}
+
+.parallax-bg03 {
+  top: 197%;
+  left: 5%;
+  animation: bounceIn 5.5s ease-out forwards;
+  color: #000000a6;
+  font-size: 150%;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: 100;
+}
+
+.parallax-bg24 {
+    font-family: serif;
+  top: 220%;
+  left: 180%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #020202;
+  font-size: 200%;
+}
+
+.parallax-bg25 {
+  top: 280%;
+  left: 180%;
+  animation: bounceIn 5.5s ease-out forwards;
+  color: #000000ab;
+  font-size: 90%;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.parallax-bg26 {
+    font-family: serif;
+  top: 700%;
+  left: 29%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 200%;
+}
+
+.parallax-bg27 {
+    font-family: serif;
+  top: 800%;
+  left: 50%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 80%;
+}
+
+.parallax-bg28 {
+    font-family: serif;
+  top: 1150%;
+  left: 145%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 270%;
+}
+
+.parallax-bg29 {
+    font-family: serif;
+  top: 1455%;
+  left:20%;
+  animation: bounceIn 5s ease-out forwards;
+  color: #7c7c7cbb;
+  font-size: 900%;
+}
+
+.parallax-bg30 {
+    font-family: serif;
+  top: 1500%;
+  left: 80%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #ffffff;
+  font-size: 200%;
+}
+
+.parallax-bg31 {
+    font-family: serif;
+  top: 2355%;
+  left: 235%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 200%;
+}
+
+.parallax-bg32 {
+    font-family: serif;
+  top: 2420%;
+  left: 280%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 120%;
+}
+
+.parallax-bg33 {
+    font-family: serif;
+  top: 2781%;
+  left: 80%;
+  animation: bounceIn 3s ease-out forwards;
+  color: #000000;
+  font-size: 800%;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+body {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            line-height: 1.2;
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+    body {
+        font-size: 0.9rem; 
+    }
+}
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #d1cfcf;
+        }
+
+        .parallax-bg, .parallax-bg1, .parallax-bg2,
+        .parallax-bg3, .parallax-bg4, .parallax-bg5,
+        .parallax-bg6, .parallax-bg7, .parallax-bg8,
+        .parallax-bg19, .parallax-bg20,.parallax-bg21,
+        .parallax-bg22, .parallax-bg23, .parallax-bg24,
+        .parallax-bg25, .parallax-bg26, .parallax-bg27,
+        .parallax-bg28, .parallax-bg29, .parallax-bg30,
+        .parallax-bg31, .parallax-bg32, .parallax-bg33,
+        .parallax-bg02, .parallax-bg03 {
+            position: absolute;
+            background: no-repeat center center / cover;
+            transform: translateY(-100%);
+            z-index: -1;
+            animation: bounceIn 1.5s ease-out forwards;
+        }
+
+        .parallax-bg { top: 0%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg1 { top: 112%; left: -0.9%; width: 105%; height: 100%; }
+        .parallax-bg2 { top: 235%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg3 { top: 350%; left: 0%; width: 100%; height: 90%; }
+        .parallax-bg4 { top: 455%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg5 { top: 570%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg6 { top: 680%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg7 { top: 790%; left: 0%; width: 100%; height: 100%; }
+        .parallax-bg8 { top: 900%; left: 0%; width: 100%; height: 100%; }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0) translateY(-10%); }
+            20% { transform: scale(0) translateY(-50%); }
+            100% { transform: scale(1) translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg, .parallax-bg1, .parallax-bg2,
+            .parallax-bg3, .parallax-bg4, .parallax-bg5,
+            .parallax-bg6, .parallax-bg7, .parallax-bg8 {
+                width: 100%;
+                left: 5%;
+            }
+
+            header {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .parallax-bg, .parallax-bg1, .parallax-bg2,
+            .parallax-bg3, .parallax-bg4, .parallax-bg5,
+            .parallax-bg6, .parallax-bg7, .parallax-bg8 {
+                width: 100%;
+                left: 0;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg"><a><img src="70adc790-f6af-4f31-ab9e-3558d9483626.jfif" height="100%" width="100%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg1"><a><img src="mkj.png" height="100%" width="100%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg2"><a><img src="kjyiuyug.png" height="15%" width="95%"> </a></p> </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg3"><a><img src="kokjk.png" height="15%" width="32%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg4"><a><img src="wnerdf.png" height="15%" width="48%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg5"><a><img src="5e847a2d-52fd-4067-bb6c-69d8b6ac4091 (1).jfif" height="15%" width="95%"> </a></p> </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg6"><a><img src="KGFK.png" height="15%" width="50%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg7"><a><img src="fjkdfk.png" height="15%" width="48%"> </a></p> </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="parallax-bg8"><a><img src="2wes.png" height="15%" width="95%"> </a></p> </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="parallax-bg19">
+        <h1>COMPANY</h1>
+    </div>
+    <div class="parallax-bg20">
+        <H2>PRESENTATION</H2> <br><a href="#k1">...</a>
+    </div>
+
+    <div class="parallax-bg21">
+        <h1>ABOUT US</h1>
+    </div>
+    <div class="parallax-bg22">
+        <H2>Our company</H2>
+    </div>
+
+    <div class="parallax-bg23">
+        <H2>Lorem ipsum dolor sit, 
+            <br>amet consectetur adipisicing elit.
+            <br>Debitis, veniam eveniet. Non aperiam, 
+            <br>Debitis, veniam eveniet. Non aperiam,
+            <br>Debitis, veniam eveniet. Non aperiam,
+            <br>similique minima corrupti? 
+            <br>Optio quisquam est.</H2>
+    </div>
+    
+    <div class="parallax-bg02">
+        <H2>Our company</H2>
+    </div>
+
+    <div class="parallax-bg03">
+        <H2>Lorem ipsum dolor sit, 
+            <br>amet consectetur adipisicing elit.
+            <br>Debitis, veniam eveniet. Non aperiam, 
+            <br>Debitis, veniam eveniet. Non aperiam,
+            <br>Debitis, veniam eveniet. Non aperiam,
+            <br>similique minima corrupti? 
+          
+    <div class="parallax-bg24">
+        <h1>STORY</h1>
+    </div>
+    <div class="parallax-bg25"><P ALIGN="CENTER">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet architecto unde iure, incidunt, 
+            neque laudantium nam cum sed a recusandae, 
+            vero ipsam ducimus distinctio sequi delectus nulla officia quisquam. Lorem ipsum dolor sit amet consec &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp tetur adipisicing elit. Sequi nihil, animi blanditiis voluptatum possimus saepe ipsa molestias quidem quos unde dignissimos iste!</P>
+    </div>
+
+
+    <div class="parallax-bg26">
+        <p id="k1"> <h1>PROJECT</h1></p>
+    </div>
+    <div class="parallax-bg27">
+        <P ALIGN="CENTER">Walk your clients<br>through your mubalics and<br>solutions of the project.</P>
+    </div>
+
+    <div class="parallax-bg28">
+        SOCIAL <BR> MEDIA
+    </div>
+
+    <div class="parallax-bg29"> 1 <BR> 2 <BR> 3 
+    </div>
+    <div class="parallax-bg30">
+        <h1>CONTACT <BR><P><P></P>socialmedia <br><BR>OFLINE</h1>
+    </div>
+
+    <div class="parallax-bg31">
+        <h1>CONTACT</h1>
+    </div>
+
+    <div class="parallax-bg32">
+        <P ALIGN="CENTER">Lorem ipsum, dolor sit amet <BR>consectetur adipisicing elit.</P>
+    </div>
+
+    <div class="parallax-bg33">
+        <P ALIGN="CENTER">THANK YOU</P>
+    </div>
+</body>
+</body>
+</html>
